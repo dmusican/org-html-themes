@@ -237,21 +237,7 @@ dl dd{
 @media screen and (max-width: 480px){
 }
 
-@media screen and (max-width: 768px){
-    #content{
-        margin-left:0}
-
-    #content #content{
-        padding:1.618em}
-
-    #content.shift{
-        position:fixed;
-        min-width:100%;
-        left:85%;
-        top:0;
-        height:100%;
-        overflow:hidden}
-}
+/* Took a media away from here and put at bottom */
 
 @media screen and (min-width: 1400px){
     #content{
@@ -822,7 +808,7 @@ footer p{
     margin-bottom:12px}
 
 #copyright, #postamble{
-    position:fixed;
+    position:relative;
     bottom:0;
     /* left:0;   DAVE */
     left:150px;  // DAVE
@@ -837,8 +823,9 @@ footer p{
 }
 
 #postamble .author {
-    font-size: 100%;
+    font-size: 80%;
     margin-bottom: 0px;
+    font-style:italic;
 }
 
 #postamble .date {
@@ -847,7 +834,7 @@ footer p{
     color: #27AE60;
 }
 
-#postamble .creator,#postamble .validation {
+#postamble .creator,#postamble .validation, #postamble .date {
     display:none;
 }
 
@@ -1036,3 +1023,25 @@ h2.footnotes{
     padding: 9px 12px;
     margin-bottom: 24px;
     font-family:"Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif}
+
+@media screen and (max-width: 768px){
+    #content{
+        margin-left:0}
+
+    #content #content{
+        padding:1.618em}
+
+    #content.shift{
+        position:fixed;
+        min-width:100%;
+        left:85%;
+        top:0;
+        height:100%;
+        overflow:hidden}
+    #table-of-contents{
+        display:none}
+
+    #copyright, #postamble{
+        left:0px;
+    }
+}
