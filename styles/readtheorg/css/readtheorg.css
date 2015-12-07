@@ -811,8 +811,8 @@ footer p{
     position:relative;
     bottom:0;
     /* left:0;   DAVE */
-    left:150px;  // DAVE
-    //width:300px;  // DAVE
+    margin-left:150px;  // DAVE
+    /* width:300px;  // DAVE */
     color:#fcfcfc;
     //background:#1f1d1d; // DAVE
     //border-top:solid 10px #343131;  // DAVE
@@ -1042,6 +1042,6 @@ h2.footnotes{
         display:none}
 
     #copyright, #postamble{
-        left:0px;
+        margin-left:0px;
     }
 }
