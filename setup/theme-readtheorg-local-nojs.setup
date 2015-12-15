@@ -2,4 +2,4 @@
 
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="org-html-themes/styles/readtheorg/css/htmlize.css"/>
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="org-html-themes/styles/readtheorg/css/readtheorg.css"/>
-
+#+HTML_HEAD: <meta name="viewport" content="width=device-width, initial-scale=1.0">
