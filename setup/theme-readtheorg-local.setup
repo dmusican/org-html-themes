@@ -2,6 +2,7 @@
 
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="org-html-themes/styles/readtheorg/css/htmlize.css"/>
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="org-html-themes/styles/readtheorg/css/readtheorg.css"/>
+#+HTML_HEAD: <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 #+HTML_HEAD: <script src="org-html-themes/jquery-2.1.4.min.js"></script>
 #+HTML_HEAD: <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
