@@ -179,7 +179,7 @@ dl dd{
     a,a:visited{
           text-decoration:underline}
 
-    pre.src,blockquote{
+    pre.src,blockquote,code {
         page-break-inside:avoid}
 
     thead{
@@ -192,7 +192,7 @@ dl dd{
         max-width:100% !important}
 
     @page{
-        margin:0.5cm}
+        margin:1cm}
 
     p,h2,h3{
         orphans:3;
@@ -216,7 +216,7 @@ dl dd{
 
     @page{
         size: auto;
-        margin: 25mm 25mm 25mm 25mm;}
+    }
 
     body {
         margin: 0px;}
